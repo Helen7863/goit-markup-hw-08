@@ -1,0 +1,20 @@
+body{
+    color: #212121;
+}
+
+.list{
+    list-style: none;
+}
+/* Heder */
+.logo{
+    color: #2196F3;
+}
+
+/* Site navigation */
+.site-nav a{
+    color: #212121;
+}
+.site-nav :hover , 
+.site-nav :focus{
+    color: #2196F3;
+}
