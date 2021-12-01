@@ -1,20 +1,86 @@
+:root{
+    --primary-text-color: #212121;
+    --title-text-color: #757575;
+    --accent-color: #FFFFFF;
+    --hover-color: #2196F3;
+    --background-color: #F5F4FA;
+    
+}
+
+
+
 body{
-    color: #212121;
+    color: var(--primary-text-color);
 }
 
 .list{
     list-style: none;
 }
+
 /* Heder */
 .logo{
-    color: #2196F3;
+    color: var(--hover-color);
 }
 
 /* Site navigation */
 .site-nav a{
-    color: #212121;
+    color: var(--primary-text-color);
 }
 .site-nav :hover , 
 .site-nav :focus{
-    color: #2196F3;
+    color: var(--hover-color);
+}
+.site-nav .current{
+    color: var(--hover-color);
+}
+
+.auto-nav a{
+    color: var(--title-text-color);
+}
+.auto-nav :hover,
+.auto-nav :focus{
+    color: var(--hover-color);
+}
+
+/*  Hero section */
+
+.hero-title{
+    color: var(--accent-color);
+}
+
+/* Section 2 */
+
+.work-list .title{
+    color: var(--primary-text-color) ;
+}
+.work-list .paragraph{
+    color: var(--title-text-color);
+}
+
+/* Section 3 */
+
+.section-title{
+    color: var(--primary-text-color);
+}
+
+/* Section 4 */
+
+.team-list .title {
+    color: var(--primary-text-color);
+}
+.team-list .paragraph{
+    color: var(--title-text-color);
+}
+
+
+
+/* Portfolio */
+
+.button-secondary a{
+    color:var(--primary-text-color);
+    background:var(--background-color);
+}
+.button-secondary :hover,
+.button-secondary :focus{
+    background: var(--hover-color);
 }
