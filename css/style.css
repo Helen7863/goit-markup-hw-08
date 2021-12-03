@@ -32,7 +32,10 @@ body{
 
 /* Site navigation */
 .site-nav a{
-    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .site-nav :hover , 
 .site-nav :focus{
@@ -44,6 +47,10 @@ body{
 
 .auto-nav a{
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .auto-nav :hover,
 .auto-nav :focus{
@@ -54,40 +61,70 @@ body{
 
 .hero-title{
     color: var(--accent-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    background: #212121;
 }
+
+.button{
+    color: var(--accent-color);
+    background: var(--hover-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+}
+
 
 /* Section 2 */
 
 .work-list .title{
     color: var(--primary-text-color) ;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
 }
 .work-list .paragraph{
     color: var(--title-text-color);
+    font-size: 14px;
+    line-height: 1.7;
 }
 
 /* Section 3 */
 
-.section-title{
+.section{
     color: var(--primary-text-color);
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
 }
 
 /* Section 4 */
 
 .team-list .title {
     color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
 }
 .team-list .paragraph{
     color: var(--title-text-color);
+    font-size: 16px;
+    line-height: 1.18;
 }
 
 /*  Footer  */
 
-.info .adress{
-    color: var(--accent-color);
-}
-
 .info a{
     color: var(--footer-color);
+    font-size: 14px;
+    line-height: 1.7;
+    background: var(--primary-text-color);
 }
 
 .info :hover,
@@ -95,11 +132,33 @@ body{
     color: var(--hover-color);
 }
 
+.info .adress{
+    color: var(--accent-color);
+}
+
+
+
 
 
 /* Portfolio */
 
-.button-secondary a{
+.button-secondary{
     color:var(--primary-text-color);
     background:var(--background-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+}
+
+.example .heaad{
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.example .indent{
+    color: var(--title-text-color);
+    font-size: 16px;
+    line-height: 1.87;
 }
