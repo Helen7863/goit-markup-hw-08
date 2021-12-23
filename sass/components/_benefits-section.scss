@@ -5,6 +5,9 @@
     padding-top: 94px;
     padding-bottom: 0px;
   }
+  &::before{
+    margin-bottom: 30pxs;
+  }
   &-list {
     @include mq(tablet) {
       display: flex;
