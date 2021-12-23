@@ -1,0 +1,63 @@
+.header {
+  border-bottom: 1px solid #ececec;
+  @include mq(mobile-only) {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+  &__nav {
+    @include mq(mobile-only) {
+      display: none;
+    }
+  }
+  &__list {
+    display: flex;
+    align-items: baseline;
+  }
+}
+
+.icon-mail {
+  width: 14px;
+  height: 10px;
+  @include mq(desktop) {
+    width: 16px;
+    height: 12px;
+  }
+}
+.icon-tel {
+  width: 10px;
+  height: 14px;
+  @include mq(desktop) {
+    height: 16px;
+  }
+}
+
+.header-btn {
+  display: none;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin-left: auto;
+  z-index: 2;
+  @include mq(mobile-only) {
+    display: block;
+  }
+}
+
+.header-btn__icon {
+  display: block;
+  &--close {
+    display: none;
+  }
+}
+
+.header-btn.is-open .header-btn__icon--close {
+  display: block;
+}
+
+.header-btn.is-open .header-btn__icon--open {
+  display: none;
+}
