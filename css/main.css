@@ -702,7 +702,7 @@ button {
 }
 
 .benefits::before {
-  margin-bottom: 30pxs;
+  margin-bottom: 30px;
 }
 
 @media (min-width: 768px) {
